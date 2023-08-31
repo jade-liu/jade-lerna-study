@@ -1,0 +1,28 @@
+{
+  "name": "feu-app",
+  "version": "1.0.0",
+  "description": "App",
+  "author": "liuyu <2259023634@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/feu-app.js",
+  "private": true,
+  "type": "module",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "test": "node ./__tests__/feu-app.test.js"
+  },
+  "dependencies": {
+    "feu-tools": "^1.0.0",
+    "feu-ui": "^1.0.0"
+  }
+}
